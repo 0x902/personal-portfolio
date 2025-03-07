@@ -11,6 +11,7 @@ import ExperienceCard from "../components/ExperienceCard";
 import Footer from "../components/Footer";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import Marquee from "react-fast-marquee";
+import { ButtonPrimary, ButtonIconed } from "../components/Buttons";
 
 function Home() {
     return (
@@ -18,11 +19,11 @@ function Home() {
             <Header className="px-[15px] w-full" />
             <main className="lg:flex-1 text-[#333333] px-[15px] max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[37vh] pb-[20px] lg:py-0  items-center gap-[20px]">
                 <div className="flex flex-col gap-[15px]">
-                    <h1 className="text-3xl font-medium ">Yasir Ahamed.</h1>
+                    <h1 className="text-3xl font-semibold ">Yasir Ahamed.</h1>
                     <p className="text-[#333333] text-xl max-w-[560px]">
                         Creating user-friendly, business-focused solutions that
                         turn challenges into streamlined experiences. A curious
-                        human thinking by ❤️ and designing by brain.
+                        human thinking by heart and designing by brain.
                     </p>
                 </div>
                 <DotLottieReact
@@ -33,7 +34,7 @@ function Home() {
                 />
             </main>
             <div className="bg-[#5285e43c] text-white">
-                <Marquee>
+                <Marquee className="cursor-default">
                     <div className="flex items-center">
                         <p className="text-[#5285e4] mr-[5px] text-lg font-light">
                             ✹ Create Design From Human for Human{" "}
@@ -109,7 +110,7 @@ function Home() {
                                 <br />
                                 Curious why?{" "}
                                 <a
-                                    className="underline"
+                                    className="underline underline-offset-3"
                                     href="mailto:ui.yazir@gmail.com"
                                 >
                                     Let’s chat!
