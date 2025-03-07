@@ -10,16 +10,15 @@ import { LinkedInIcon, GitHubIcon } from "../assets/icons/Icons";
 import ExperienceCard from "../components/ExperienceCard";
 import Footer from "../components/Footer";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import Marquee from "react-fast-marquee";
 
 function Home() {
     return (
         <div className="flex flex-col h-[100vh]">
             <Header className="px-[15px] w-full" />
-            <main className="lg:flex-1 text-[#333333] px-[15px] max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[40vh] pb-[20px] lg:py-0  items-center gap-[20px]">
+            <main className="lg:flex-1 text-[#333333] px-[15px] max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[37vh] pb-[20px] lg:py-0  items-center gap-[20px]">
                 <div className="flex flex-col gap-[15px]">
-                    <h1 className="text-3xl font-medium font-Inter">
-                        Yasir Ahamed.
-                    </h1>
+                    <h1 className="text-3xl font-medium ">Yasir Ahamed.</h1>
                     <p className="text-[#333333] text-xl max-w-[560px]">
                         Creating user-friendly, business-focused solutions that
                         turn challenges into streamlined experiences. A curious
@@ -33,6 +32,39 @@ function Home() {
                     autoplay
                 />
             </main>
+            <div className="bg-[#5285e43c] text-white">
+                <Marquee>
+                    <div className="flex items-center">
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                        <p className="text-[#5285e4] mr-[5px] text-lg font-light">
+                            ✹ Create Design From Human for Human{" "}
+                        </p>
+                    </div>
+                </Marquee>
+            </div>
             <div className="bg-[#333333] w-full px-[15px] flex-1">
                 <div className="max-w-[1200px] py-[50px] mx-auto w-full h-full grid lg:grid-cols-2 sm:grid-cols-1 gap-[50px]">
                     <section className="flex flex-col lg:gap-2.5 sm:gap-0">
@@ -87,7 +119,7 @@ function Home() {
                     </section>
                     <section className="flex flex-col gap-[20px]">
                         <div className="flex items-center gap-2.5">
-                            <h4 className="text-white font-Inter text-xl font-medium">
+                            <h4 className="text-white  text-xl font-medium">
                                 Experience
                             </h4>
                             <div className="flex-1 h-0.5 bg-[#FFFFFF20]"></div>
