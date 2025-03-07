@@ -12,12 +12,9 @@ import Footer from "../components/Footer";
 
 function Home() {
     return (
-        <>
-            <Header className="px-[15px]" />
-            <main
-                className="text-[#333333] px-[15px] max-w-[1200px] mx-auto grid grid-cols-2 items-center gap-[50px]"
-                style={{ height: "calc(50vh - 48px)" }}
-            >
+        <div className="flex flex-col h-[100vh]">
+            <Header className="px-[15px] w-full" />
+            <main className="lg:flex-1 text-[#333333] px-[15px] max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[150px] pb-[50px] lg:py-0  items-center gap-[50px]">
                 <div className="flex flex-col gap-[15px]">
                     <h1 className="text-3xl font-medium font-Inter">
                         Yasir Ahamed.
@@ -30,12 +27,9 @@ function Home() {
                 </div>
                 <img className="w-full pointer-events-none" src={UxIxDImage} />
             </main>
-            <div
-                className="bg-[#333333] w-full px-[15px]"
-                style={{ height: "calc(50vh - 99px)" }}
-            >
-                <div className="max-w-[1200px] pt-[50px] mx-auto w-full h-full grid grid-cols-2 gap-[20px]">
-                    <section className="flex flex-col gap-2.5">
+            <div className="bg-[#333333] w-full px-[15px] flex-1">
+                <div className="max-w-[1200px] py-[50px] mx-auto w-full h-full grid lg:grid-cols-2 sm:grid-cols-1 gap-[50px]">
+                    <section className="flex flex-col lg:gap-2.5 sm:gap-0">
                         <div>
                             <h2 className="text-white text-xl">
                                 A UIUX designer doing;{" "}
@@ -111,7 +105,7 @@ function Home() {
                 </div>
             </div>
             <Footer className="px-[15px]" />
-        </>
+        </div>
     );
 }
 
