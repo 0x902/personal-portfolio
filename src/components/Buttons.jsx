@@ -4,7 +4,7 @@ function ButtonPrimary({ text, onClickHandler, className }) {
     return (
         <button
             onClick={onClickHandler}
-            className={`${className} cursor-pointer font-Inter text-lg text-white bg-[#A259FF] px-[15px] py-[12px] rounded-full`}
+            className={`${className} cursor-pointer font-Inter text-lg text-white bg-[#5286E4] px-[15px] py-[12px] rounded-full`}
         >
             <span>{text}</span>
         </button>

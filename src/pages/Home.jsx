@@ -9,12 +9,13 @@ import {
 import { LinkedInIcon, GitHubIcon } from "../assets/icons/Icons";
 import ExperienceCard from "../components/ExperienceCard";
 import Footer from "../components/Footer";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 function Home() {
     return (
         <div className="flex flex-col h-[100vh]">
             <Header className="px-[15px] w-full" />
-            <main className="lg:flex-1 text-[#333333] px-[15px] max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[150px] pb-[50px] lg:py-0  items-center gap-[50px]">
+            <main className="lg:flex-1 text-[#333333] px-[15px] max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[40vh] pb-[20px] lg:py-0  items-center gap-[20px]">
                 <div className="flex flex-col gap-[15px]">
                     <h1 className="text-3xl font-medium font-Inter">
                         Yasir Ahamed.
@@ -25,7 +26,12 @@ function Home() {
                         human thinking by ❤️ and designing by brain.
                     </p>
                 </div>
-                <img className="w-full pointer-events-none" src={UxIxDImage} />
+                <DotLottieReact
+                    className="w-full hidden lg:block"
+                    src="https://lottie.host/e1df3a0b-5d0d-484d-8830-80e4ad048f8b/52BfflD7k9.lottie"
+                    loop
+                    autoplay
+                />
             </main>
             <div className="bg-[#333333] w-full px-[15px] flex-1">
                 <div className="max-w-[1200px] py-[50px] mx-auto w-full h-full grid lg:grid-cols-2 sm:grid-cols-1 gap-[50px]">
@@ -33,7 +39,7 @@ function Home() {
                         <div>
                             <h2 className="text-white text-xl">
                                 A UIUX designer doing;{" "}
-                                <span className="text-[#A259FF]">
+                                <span className="text-[#5286E4]">
                                     define → design → deliver{" "}
                                 </span>
                             </h2>
@@ -69,7 +75,13 @@ function Home() {
                             <p className="text-sm/tight  text-[#FFFFFF70]">
                                 I’m not on social media.
                                 <br />
-                                Curious why? Let’s chat!
+                                Curious why?{" "}
+                                <a
+                                    className="underline"
+                                    href="mailto:ui.yazir@gmail.com"
+                                >
+                                    Let’s chat!
+                                </a>
                             </p>
                         </div>
                     </section>
