@@ -11,7 +11,7 @@ import ExperienceCard from "../components/ExperienceCard";
 import Footer from "../components/Footer";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import Marquee from "react-fast-marquee";
-import { ButtonPrimary, ButtonIconed } from "../components/Buttons";
+import { Typewriter } from "react-simple-typewriter";
 
 function Home() {
     return (
@@ -19,7 +19,20 @@ function Home() {
             <Header className="px-[15px] w-full" />
             <main className="lg:flex-1 text-[#333333] px-[15px] max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[37vh] pb-[20px] lg:py-0  items-center gap-[20px]">
                 <div className="flex flex-col gap-[15px]">
-                    <h1 className="text-3xl font-semibold ">Yasir Ahamed.</h1>
+                    <h1 className="text-3xl font-semibold ">
+                        I'm{" "}
+                        <Typewriter
+                            loop={true}
+                            cursor={true}
+                            cursorStyle="|"
+                            cursorColor="#33333350"
+                            words={[
+                                "Yasir Ahamed.",
+                                "a uxui designer.",
+                                "a frontend developer.",
+                            ]}
+                        />
+                    </h1>
                     <p className="text-[#333333] text-xl max-w-[560px]">
                         Creating user-friendly, business-focused solutions that
                         turn challenges into streamlined experiences. A curious
@@ -27,7 +40,7 @@ function Home() {
                     </p>
                 </div>
                 <DotLottieReact
-                    className="w-full hidden lg:block"
+                    className=" w-full hidden lg:block"
                     src="https://lottie.host/e1df3a0b-5d0d-484d-8830-80e4ad048f8b/52BfflD7k9.lottie"
                     loop
                     autoplay
@@ -71,7 +84,7 @@ function Home() {
                     <section className="flex flex-col lg:gap-2.5 sm:gap-0">
                         <div>
                             <h2 className="text-white text-xl">
-                                A UIUX designer doing;{" "}
+                                A UXUI designer doing;{" "}
                                 <span className="text-[#5286E4]">
                                     define → design → deliver{" "}
                                 </span>
