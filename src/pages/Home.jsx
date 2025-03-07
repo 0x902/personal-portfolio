@@ -16,7 +16,7 @@ import { Typewriter } from "react-simple-typewriter";
 function Home() {
     return (
         <div className="flex flex-col h-[100vh]">
-            <Header className="px-[16px] lg:px-0 w-full" />
+            <Header className="px-[16px]  w-full" />
             <main className="px-[16px] lg:flex-1 w-full text-[#333333]   max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[37vh] pb-[20px] lg:py-0  items-center gap-[20px]">
                 <div className="flex flex-1 flex-col gap-[15px]">
                     <h1 className="text-3xl font-semibold ">
