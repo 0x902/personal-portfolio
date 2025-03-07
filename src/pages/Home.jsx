@@ -16,9 +16,9 @@ import { Typewriter } from "react-simple-typewriter";
 function Home() {
     return (
         <div className="flex flex-col h-[100vh]">
-            <Header className="px-[15px] w-full" />
-            <main className="lg:flex-1 text-[#333333] px-[15px] max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[37vh] pb-[20px] lg:py-0  items-center gap-[20px]">
-                <div className="flex flex-col gap-[15px]">
+            <Header className="px-[16px] lg:px-0 w-full" />
+            <main className="px-[16px] lg:px-0 lg:flex-1 w-full text-[#333333]   max-w-[1200px] mx-auto grid lg:grid-cols-2 sm:grid-cols-1 pt-[37vh] pb-[20px] lg:py-0  items-center gap-[20px]">
+                <div className="flex flex-1 flex-col gap-[15px]">
                     <h1 className="text-3xl font-semibold ">
                         I'm{" "}
                         <Typewriter
@@ -40,13 +40,13 @@ function Home() {
                     </p>
                 </div>
                 <DotLottieReact
-                    className=" w-full hidden lg:block"
+                    className="flex-1 hidden lg:block "
                     src="https://lottie.host/e1df3a0b-5d0d-484d-8830-80e4ad048f8b/52BfflD7k9.lottie"
                     loop
                     autoplay
                 />
             </main>
-            <div className="bg-[#5285e43c] text-white">
+            <div className="bg-[#5285e43c] border-t-1 border-[#5285e4] text-white">
                 <Marquee className="cursor-default">
                     <div className="flex items-center">
                         <p className="text-[#5285e4] mr-[5px] text-lg font-light">
@@ -79,7 +79,7 @@ function Home() {
                     </div>
                 </Marquee>
             </div>
-            <div className="bg-[#333333] w-full px-[15px] flex-1">
+            <div className="bg-[#333333] w-full px-[16px] lg:px-0 flex-1">
                 <div className="max-w-[1200px] py-[50px] mx-auto w-full h-full grid lg:grid-cols-2 sm:grid-cols-1 gap-[50px]">
                     <section className="flex flex-col lg:gap-2.5 sm:gap-0">
                         <div>
@@ -162,7 +162,7 @@ function Home() {
                     </section>
                 </div>
             </div>
-            <Footer className="px-[15px]" />
+            <Footer className="px-[16px] lg:px-0" />
         </div>
     );
 }
