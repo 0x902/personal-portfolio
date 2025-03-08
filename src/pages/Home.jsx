@@ -34,7 +34,7 @@ function Home() {
                         />
                     </h1>
                     <p className="text-[#333333] text-xl max-w-[560px]">
-                        Creating user-friendly, business-focused solutions that
+                        I create user friendly, business focused solutions that
                         turn challenges into streamlined experiences. A curious
                         human thinking by heart and designing by brain.
                     </p>
