@@ -140,7 +140,7 @@ function Home() {
                         </div>
                         <ExperienceCard
                             company="MNS Robotics"
-                            position="UIUX Designer"
+                            position="UI/UX Designer"
                             startYear="2024"
                         />
                         <ExperienceCard
@@ -150,13 +150,13 @@ function Home() {
                         />
                         <ExperienceCard
                             company="Baycop Technologies"
-                            position="Web design and development"
+                            position="Associate UI/UX Designer"
                             startYear="2021"
                             endYear="2023"
                         />
                         <ExperienceCard
                             company="Freelancer.com"
-                            position="Design Freelancer"
+                            position="UI/UX Designer"
                             startYear="2020"
                         />
                     </section>
