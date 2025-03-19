@@ -18,7 +18,7 @@ function Header({ className }) {
                 icon={ExternalLinkIcon}
                 onClickHandler={() => {
                     window.open(
-                        "https://www.dropbox.com/scl/fi/wjujd7aioqs5epy877s29/resume.pdf?rlkey=z3pmgiu5jv39nlbp0tzo2rcqn&st=a19fjj3o&dl=0",
+                        "https://www.dropbox.com/scl/fi/rruicooszzno91x2daov4/Resume-Yasir-Ahamad.pdf?rlkey=owrk4ous1bvmyv1v5aueoivzu&st=62f824zc&dl=0",
                         "_blank"
                     );
                 }}
